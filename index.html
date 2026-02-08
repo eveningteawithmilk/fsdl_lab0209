@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body style="background-color:#f2f2f2;"> <!-- Inline CSS -->
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Student Portal</a>
+
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+
+    <h1>Student Registration Form</h1>
+
+    <p class="highlight">
+        This is a responsive web page designed using Bootstrap.
+    </p>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/800x200" class="img-fluid mb-3">
+
+    <!-- Form -->
+    <form class="border p-3">
+
+        <div class="mb-3">
+            <label>Name</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label>Email</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label>Course</label>
+            <select class="form-select">
+                <option>CSE</option>
+                <option>IT</option>
+                <option>AI</option>
+            </select>
+        </div>
+
+        <button class="btn btn-primary">Register</button>
+
+    </form>
+
+    <hr>
+
+    <!-- Table -->
+    <h3>Registered Students</h3>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>CSE</td>
+        </tr>
+    </table>
+
+    <!-- List -->
+    <h3>Facilities</h3>
+
+    <ul>
+        <li>Library</li>
+        <li>Hostel</li>
+        <li>Sports</li>
+    </ul>
+
+</div>
+
+</body>
+</html>
