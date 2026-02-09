@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: lightblue;
+    text-align: center;
+}
+
+form {
+    background: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+}
+
+#msg {
+    color: red;
+    font-weight: bold;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin: auto;
+}
+.err {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+input.good {
+    border: 2px solid green;
+}
+
+input.bad {
+    border: 2px solid red;
+}
